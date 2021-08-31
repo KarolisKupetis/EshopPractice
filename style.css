@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel__images {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.25s;
+}
+
+.carousel__images img {
+  height: 250px;
+  border-radius: 15px;
+  width: 600px;
+}
+
+.carousel {
+  align-items: center;
+  display: flex;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+  width: 600px;
+}
+
+.carousel__button {
+  background: rgb(95, 128, 143);
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  height: 3rem;
+  width: 3rem;
+  z-index: 1;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.25;
+}
+
+.myform {
+  display: block;
+  text-align: center;
+}
+
+.carousel__button:hover {
+  opacity: 0.7;
+}
+
+#next {
+  right: 5px;
+}
+
+#previous {
+  left: 5px;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  padding: 20px;
+  width: 100%;
+  grid-template-columns: repeat(5, 150px);
+  grid-auto-rows: 150px;
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.grid-button {
+  color: black;
+  background-color: rgb(255, 247, 29);
+  cursor: pointer;
+  font-weight: bold;
+  height: 3rem;
+  width: 73px;
+  z-index: 1;
+  border-radius: 10%;
+}
+
+.create-btn {
+  background-color: rgb(204, 255, 122);
+  margin-right: 1rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 10%;
+}
+
+.grid-item img {
+  position: relative;
+  font-size: 25px;
+  padding: 3px;
+  background-color: #379ad6;
+  color: #222;
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.carousel-container {
+  width: 60%;
+  margin: auto;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 100vh;
+  padding: 2rem;
+}
+
+nav {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.popup {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-content {
+  height: 250px;
+  width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.welcome {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.logo {
+  height: 5.25rem;
+}
+
+.search {
+  display: flex;
+}
+
+.search--input {
+  border: none;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  width: 18rem;
+  border-radius: 10rem;
+  margin-right: 1rem;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.login__input:focus {
+  outline: none;
+  border: 1px solid rgb(107, 40, 40);
+}
+
+.login__btn {
+  margin-right: 1rem;
+  border: none;
+  width: 10rem;
+  background: none;
+  font-size: 1.5rem;
+}

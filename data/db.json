@@ -1,0 +1,39 @@
+{
+  "cookies": [
+    {
+      "id": 1,
+      "imageLink": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg?output-format=auto&output-quality=auto",
+      "favorite": true
+    },
+    {
+      "imageLink": "https://www.simplyrecipes.com/thmb/nkHqbpnu2Qzuen4oRWwV-AGeXRM=/2000x1333/filters:no_upscale():max_bytes(150000):strip_icc()/Holiday-Sugar-Cookies-LEAD-4-1f0b28eae31a478292424b32446b7a4a.jpg",
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWoewzNNEvZOPz3GGArvP4G8P0qclXxGU_XdPDm4KwK9uptBrTvUnR8KRJcYOCsdlZ-QE&usqp=CAU",
+      "favorite": true,
+      "id": 6
+    },
+    {
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWoewzNNEvZOPz3GGArvP4G8P0qclXxGU_XdPDm4KwK9uptBrTvUnR8KRJcYOCsdlZ-QE&usqp=CAU",
+      "favorite": true,
+      "id": 7
+    },
+    {
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWoewzNNEvZOPz3GGArvP4G8P0qclXxGU_XdPDm4KwK9uptBrTvUnR8KRJcYOCsdlZ-QE&usqp=CAU",
+      "favorite": true,
+      "id": 8
+    },
+    {
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWoewzNNEvZOPz3GGArvP4G8P0qclXxGU_XdPDm4KwK9uptBrTvUnR8KRJcYOCsdlZ-QE&usqp=CAU",
+      "favorite": true,
+      "id": 9
+    },
+    {
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWoewzNNEvZOPz3GGArvP4G8P0qclXxGU_XdPDm4KwK9uptBrTvUnR8KRJcYOCsdlZ-QE&usqp=CAU",
+      "favorite": true,
+      "id": 10
+    }
+  ]
+}

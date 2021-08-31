@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cokkie</title>
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <div>
+        <input type="text" placeholder="Search" class="search--input" />
+        <button class="search--button">Submit</button>
+      </div>
+      <button class="login__btn">Login</button>
+    </nav>
+
+    <div class="carousel">
+      <button class="carousel__button next" id="next">></button>
+      <div class="carousel__images">
+      </div>
+      <button class="carousel__button previous" id="previous"><</button>
+    </div>
+    <div class="myform">
+      <form>
+        <label>cookie image url</label>
+        <input type="text" name="imageLink" class="create-input"></input>
+        <input type="checkbox" name="favorite" id="favorite">
+        <label for="favorite">favorite</label>
+        <button class="create-btn">Create</button>
+      </form>
+    </div>
+
+    <div class="grid-container"></div>
+
+    <!-- <div class="popup">
+      <div class="popup-content">
+        <input class='input-edit text' type="text">
+        <input class='input-edit box' type="checkbox">
+        <button class="confirm-edit">Edit</button>
+      </div>
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
